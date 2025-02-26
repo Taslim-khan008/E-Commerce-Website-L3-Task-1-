@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My E-Commerce Store</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.flipkart.com/">Home</a></li>
+                <li><a href="https://www.flipkart.com/musical-instruments/string-instruments/pr?sid=ypu%2Cujd&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&hpid=B-XAf3E_DShXt5jns5U3Map7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcCB0byA3MCUgT2ZmIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiQUNHR0ZCTjNKNEpTWkJSOCIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlN0cmluZyBJbnN0cnVtZW50cyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D">Products</a></li>
+                <li><a href="https://www.flipkart.com/viewcart?exploreMode=true&preference=FLIPKART">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products">
+            <div class="product">
+                <img src="https://i5.walmartimages.com/asr/df382cb6-6130-400b-a760-4f61ae144bda.15d542b3fa532a637b0d67241e7e4e76.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF" alt="Product 1">
+                <h2>Product 1</h2>
+                <p>$19.99</p>
+                <button onclick="addToCart('Product 1', 19.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.fashiontiy.com/products/T103866842/color_6.jpg?x-oss-process=image/interlace,1/format,webp" alt="Product 2">
+                <h2>Product 2</h2>
+                <p>$29.99</p>
+                <button onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://i5.walmartimages.com/asr/d57ed860-694d-47d7-8bc7-cffa406abf8e.aed117895e4a9ef26bc45f017a00d404.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Product 3">
+                <h2>Product 3</h2>
+                <p>$69.99</p>
+                <button onclick="addToCart('Product 3', 69.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://i5.walmartimages.com/asr/30c14826-e922-4c11-b26d-135c2e1a0154.ac6a376d46acc379ce6a322a90cc0b60.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF" alt="Product 2">
+                <h2>Product 4</h2>
+                <p>$78.99</p>
+                <button onclick="addToCart('Product 4', 78.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/819tXEeuZhL._AC_UL600_SR600,600_.jpg" alt="Product 2">
+                <h2>Product 5</h2>
+                <p>$98.99</p>
+                <button onclick="addToCart('Product 5', 98.99)">Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My E-Commerce Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
